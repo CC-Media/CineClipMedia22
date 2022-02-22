@@ -13,7 +13,7 @@ $(function() {
 
 
     /*========== Loading  ==========*/
-    $('.preloader').delay(200).fadeOut(700, function() {
+    $('.preloader').delay(1400).fadeOut(500, function() {
         $(this).remove();
     });
 
