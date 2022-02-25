@@ -938,6 +938,9 @@ h6 {
         width: 100%;
         height: auto;
     }
+    .projects .post .post-img img {
+        opacity: 1;
+    }
     .projects .post .post-content {
         float: none;
         width: 100%;
