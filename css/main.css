@@ -879,6 +879,12 @@ h6 {
         margin: 11px 0 0;
         font-size: 13px;
     }
+    /*=========== contact ============*/
+    .contact .post .post-content .post-text a {
+        padding-top: 11px;
+        margin: 11px 0 0;
+        font-size: 13px;
+    }
 }
 
 
@@ -941,6 +947,29 @@ h6 {
     .projects .post .post-content .post-text p {
         margin: 15px 0;
     }
+    /*=========== Contact ============*/
+    .contact {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+    .contact .post {
+        margin-bottom: 20px;
+        height: auto;
+    }
+    .contact .post .post-img {
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+    .contact .post .post-content {
+        float: none;
+        width: 100%;
+        padding: 30px 20px 80px;
+        height: auto;
+    }
+    .contact .post .post-content .post-text a {
+        margin: 15px 0;
+    }
 }
 
 
@@ -992,5 +1021,16 @@ h6 {
     }
     .projects .post-content .post-footer .post-category a {
         font-size: 14px;
+    }
+    /*=========== Contact ============*/
+    .contact .post .post-content .post-title h4 {
+        font-size: 16px;
+    }
+    .contact .post .post-content .post-text i {
+        font-size: 17px;
+    }
+    .contact .post .post-content .post-text a {
+        font-size: 13px;
+        letter-spacing: .3px;
     }
 }
