@@ -663,6 +663,179 @@ h6 {
 
 
 /* --------------------------------------
+ Contact
+-----------------------------------------*/
+
+.contact {
+    padding-top: 100px;
+    padding-bottom: 85px;
+    color: #fff;
+    background: #0000008c;
+}
+
+.contact .post {
+    margin-bottom: 15px;
+    margin-right: 10px;
+    height: 270px;
+    border: 3px solid #383636;
+    border-right: none;
+    background: #323232;
+}
+
+.contact .post:hover .post-img img {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.contact .post:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.contact .post .post-img {
+    float: left;
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.contact .post .post-img img {
+    opacity: .6;
+    width: 100%;
+    height: 100%;
+}
+
+.contact .post .post-content {
+    position: relative;
+    float: left;
+    width: 60%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    height: 100%;
+}
+
+.contact .post .post-content .post-title h4 {
+    color: #16c0f0;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    margin: 0 0 5px;
+}
+
+.contact .post .post-content .post-text a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #16c0f0;
+}
+
+.contact .post .post-content .post-text a:hover {
+    color: #16c0f0;
+}
+
+.contact .post .post-content i {
+    font-size: 3.2rem;
+    margin-right: 0.3em;
+    color: #16c0f0;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #323232;
+}
+
+.contact .post .post-content .post-info li {
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 10px;
+    color: #c2c0c3;
+}
+
+.contact .post .post-content .post-info li a span {
+    color: #c2c0c3;
+}
+
+.contact .post .post-content .post-info li a span:hover {
+    color: #16c0f0;
+}
+
+.contact .post .post-content .post-text p {
+    line-height: 1.8;
+    font-weight: 400;
+    padding-top: 15px;
+    margin: 15px 0 0;
+    border-top: 1px solid #3a3939;
+    color: #c2c0c3;
+    font-size: 14px;
+}
+
+.contact .post-content .post-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background: #292929;
+    padding: 25px 15px;
+}
+
+.contact .post-content .post-footer .post-more {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+}
+
+.contact .post-content .post-footer .post-more:hover {
+    color: #16c0f0;
+}
+
+.contact .post-content .post-footer .post-more i {
+    margin-left: 4px;
+}
+
+.contact .post-content .post-footer .post-category a {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -10px;
+    background: linear-gradient(135deg, #319be6 0%, #16c0f0 100%);
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.contact .post-content .post-footer .post-category a:before {
+    content: '';
+    position: absolute;
+    top: -12px;
+    right: 0;
+    border-right: 10px solid transparent;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid #16c0f0;
+}
+
+.contact .post-content .post-footer .post-category a:after {
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    right: 0;
+    border-right: 10px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-top: 6px solid #16c0f0;
+}
+
+
+/* --------------------------------------
    14. Footer
 -----------------------------------------*/
 
@@ -711,109 +884,6 @@ h6 {
 .scroll-top.active {
     bottom: 30px;
     right: 30px;
-}
-
-
-/* --------------------------------------
- Contact
------------------------------------------*/
-
-.contact {
-    padding-top: 100px;
-    padding-bottom: 85px;
-    color: #fff;
-    background: #323232e1;
-}
-
-.contact .post {
-    margin-bottom: 15px;
-    margin-right: 10px;
-    height: 270px;
-    border: 3px solid #383636;
-    border-right: none;
-    background: #323232;
-}
-
-.contact .post:hover .post-img img {
-    opacity: 1;
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
-.contact .post:after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
-.contact .post .post-img {
-    float: left;
-    width: 40%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.contact .post .post-img img {
-    width: 100%;
-    height: 100%;
-}
-
-.contact .post .post-content {
-    position: relative;
-    float: left;
-    width: 60%;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    height: 100%;
-}
-
-.contact .post .post-content .text-wrapper {
-    float: left;
-}
-
-.contact .post .post-content .post-title h4 {
-    color: #16c0f0;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.5;
-    letter-spacing: .5px;
-    margin: 0 0 5px;
-}
-
-.contact .post .post-content .post-text a {
-    color: #fff;
-    font-weight: 600;
-    font-size: 25px;
-    letter-spacing: 1px;
-    text-decoration: underline;
-    text-decoration-color: #16c0f0;
-    text-underline-position: under;
-}
-
-.contact .post .post-content .post-text a:hover {
-    color: #16c0f0;
-}
-
-.contact .post .post-content .post-text i {
-    color: #fff;
-    font-size: 30px;
-    padding-right: 5px;
-}
-
-.contact .post .post-content .post-text i:hover {
-    color: #16c0f0;
-}
-
-.contact .post-content .post-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    left: 0;
-    /* background: #292929; */
-    padding: 25px 15px;
 }
 
 
@@ -1027,13 +1097,13 @@ h6 {
     }
     /*=========== Contact ============*/
     .contact .post .post-content .post-title h4 {
-        font-size: 16px;
+        font-size: 20px;
     }
     .contact .post .post-content .post-text i {
-        font-size: 17px;
+        font-size: 23px;
     }
     .contact .post .post-content .post-text a {
-        font-size: 13px;
+        font-size: 15px;
         letter-spacing: .3px;
     }
 }
